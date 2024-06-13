@@ -1,380 +1,400 @@
-Linux Interview Questions
-1 What is the difference between a process and a thread in Linux?
+## DevOps Interview question that I faced during my interview ##
 
-2 What is the difference between a hard link and a soft link in Linux?
+## Linux Interview Questions ##
 
-3 How can you check the memory usage of a Linux system?
+1	What is the difference between a process and a thread in Linux?
 
-4 How do you find the IP address of a Linux system?
+2	What is the difference between a hard link and a soft link in Linux?
 
-5 What is the purpose of the "chmod" command in Linux?
+3	How can you check the memory usage of a Linux system?
 
-6 What is the purpose of the "grep" command?
+4	How do you find the IP address of a Linux system?
 
-7 How do you change the password for a user in Linux?
+5	 What is the purpose of the "chmod" command in Linux?
 
-8 What is the purpose of the "cron" daemon in Linux?
+6	What is the purpose of the "grep" command?
 
-9 How do you schedule a cron job in Linux? 10 Diskspace full issue?
+7	How do you change the password for a user in Linux?
 
-11 Running out of memory?
+8	What is the purpose of the "cron" daemon in Linux?
 
-12 How do you troubleshoot high CPU usage on a Linux server?
+9	How do you schedule a cron job in Linux?
+10	Diskspace full issue?
 
-13 Describe the boot process of a Linux system?
+11	Running out of memory?
 
-14 You need to transfer a large file securely between two Linux servers. What tools or protocols would you use, and why?
+12	How do you troubleshoot high CPU usage on a Linux server?
 
-15 A user accidentally deleted an important file, and you need to recover it from the backup. Explain the steps you would take to restore the file ?
+13	Describe the boot process of a Linux system?
 
-16 A user reports that they are unable to connect to a remote Linux server using SSH. How would you troubleshoot and resolve this connectivity issue?
+14	You need to transfer a large file securely between two Linux servers. What tools or protocols would you use, and why?
 
-17 You need to find all files larger than 100MB in the /home directory and its subdirectories. How would you accomplish this task?
+15	A user accidentally deleted an important file, and you need to recover it from the backup. Explain the steps you would take to restore the file ?
 
-18 What is inode?
+16	A user reports that they are unable to connect to a remote Linux server using SSH. How would you troubleshoot and resolve this connectivity issue?
 
-19 What is booting process in Linux?
+17	You need to find all files larger than 100MB in the /home directory and its subdirectories. How would you accomplish this task?
 
-20 How do you clear the server if you continuously get Space not available
+18	What is inode?
 
-21 What types of OS patching’s you have done
+19	What is booting process in Linux?
 
-22 What are the Linux commands you use daily?
+20	How do you clear the server if you continuously get Space not available
 
-23 Linux file permissions types
+21	What types of OS patching’s you have done
 
-Shell script Interview Questions
-What is CRONTAB?
+22	What are the Linux commands you use daily?
 
-How would you know the disk usage using the shell script commands?
+23	Linux file permissions types
 
-Give the purpose of the shebang line?
 
-Tell us about the ‘$#’ use in shell scripting?
+## Shell script Interview Questions ##
 
-Write a script to check vowels in a string
+1.	What is CRONTAB?
+2.	How would you know the disk usage using the shell script commands?
 
-Differentiate between 
-*?
+3.	Give the purpose of the shebang line?
 
-How can you determine if a linux server is virtualized or bare-metal?
+4.	Tell us about the ‘$#’ use in shell scripting?
 
-Explain special variables in Shell
+5.	Write a script to check vowels in a string
 
-Ansible Interview Questions
-what are tags in ansible?
+6.	Differentiate between $@ and $*?
 
-what is ansible playbook?
+7.	How can you determine if a linux server is virtualized or bare-metal?
 
-What are handlers in Ansible playbook?
+8.	Explain special variables in Shell
 
-What are various modules you have used in Ansible?
+## Ansible Interview Questions ##
 
-What is Ansible ad hoc command?
+1.	what are tags in ansible?
 
-How has Ansible helped your organization?
+2.	what is ansible playbook?
 
-What are register targets in Ansible?
+3.	What are handlers in Ansible playbook?
 
-How to add multiple tasks in ansible playbook
+4.	What are various modules you have used in Ansible?
 
-Ansible host ping is success but I am not able to execute playbooks why?
+5.	What is Ansible ad hoc command?
 
-What is Ansible Tower and what are its features
+6.	How has Ansible helped your organization?
 
-How do you keep data secret in a playbook?
+7.	What are register targets in Ansible?
 
-Terraform Interview Questions
-1 Remote state in terraform and state in terraform?
+8.	How to add multiple tasks in ansible playbook
 
-2 terraform data block vs resource block?
+9.	Ansible host ping is success but I am not able to execute playbooks why? 
 
-3 How do you mange credentials in terraform?
+10.	What is Ansible Tower and what are its features
 
-4 Explain the concept of a workspace
+11.	How do you keep data secret in a playbook?
 
-5 terraform modules?
+## Terraform Interview Questions ##
 
-6 Provider in terraform
+1	Remote state in terraform and state in terraform?
 
-7 Null resource in terraform
+2	terraform data block vs resource block?
 
-8 How to Ignore the Error Duplicate Resource when applying Terraform
+3	How do you mange credentials in terraform?
 
-9 What are the commands of terraform apart from init, apply, plan
+4	Explain the concept of a workspace
 
-10 How you maintain the state file
+5	terraform modules?
 
-11 If I lose the state files in terraform how can I recover that
+6	Provider in terraform
 
-12 Is there a tool that can look for security vulnerabilities in your terraform code?
+7	Null resource in terraform
 
-13 What is the difference between Anisible & Terraform?
+8	How to Ignore the Error Duplicate Resource when applying Terraform
 
-14 explain provisioners in terraform.
+9	What are the commands of terraform apart from init, apply, plan
 
-15 variables vs locals
+10	How you maintain the state file
 
-16 Does Terraform support multi-provider deployments?
+11	If I lose the state files in terraform how can I recover that
 
-17 How to Store Sensitive Data in Terraform?
+12	Is there a tool that can look for security vulnerabilities in your terraform code?
 
-18 Give the terraform configuration for creating a single EC2 instance on AWS
+13	What is the difference between Anisible & Terraform?
 
-19 How does Terraform manage updates to existing resources?
+14	explain provisioners in terraform.
 
-20 How can you manage versioning of Terraform configurations?
+15	variables vs locals 
 
-Git Interview Questions
-1 Git conflict?
+16	Does Terraform support multi-provider deployments?
 
-2 Branching strategy?
+17	How to Store Sensitive Data in Terraform?
 
-3 how to resolve merge conflicts?
+18	Give the terraform configuration for creating a single EC2 instance on AWS 
 
-4 Merge vs rebase
+19	How does Terraform manage updates to existing resources?
 
-5 interactive rebase git
+20	How can you manage versioning of Terraform configurations?
 
-6 squash in git
+## Git Interview Questions ##
 
-7 fast-forward merge in Git?
+1	Git conflict?
 
-8 What is cherry pic
+2	Branching strategy?
 
-9 what is gitignore?
+3	how to resolve merge conflicts?
 
-10 What is Git and why is it used?
+4	Merge vs rebase
 
-11 What is the difference between git fetch and git pull?
+5	interactive rebase git
 
-12 How can you revert a commit that has already been pushed to a remote repository?
+6	squash in git
 
-13 How do you initialize a new Git repository?
+7	fast-forward merge in Git?
 
-14 What is the purpose of the Git staging area?
+8	What is cherry pic
 
-15 How do you commit changes in Git?
+9	what is gitignore?
 
-CICD Interview Questions
-what are pipeline stages in your organization?
+10	What is Git and why is it used?
 
-What is the architecture of your application CICD deployment in current org?
+11	What is the difference between git fetch and git pull?
 
-What is the issue have u faced in Jenkins non prod to prod while building the Jenkins job?
+12	How can you revert a commit that has already been pushed to a remote repository?
 
-pipeline issues in Jenkins
+13	How do you initialize a new Git repository? 
 
-production pipeline issues in Jenkins
+14	What is the purpose of the Git staging area?
 
-what are the build issues have you faced in your project?
+15	How do you commit changes in Git?
 
-Deployment strategies
+## CICD Interview Questions ##
 
-What are various plugins in your Jenkins Pipeline?
+1.	what are pipeline stages in your organization?
 
-How do you create a multi-branch Jenkins pipeline?
+2.	What is the architecture of your application CICD deployment in current org?
 
-how do you upgrade Jenkins?
+3.	What is the issue have u faced in Jenkins non prod to prod while building the Jenkins job?
 
-What is a shared library
+4.	pipeline issues in Jenkins
 
-What is jenkins and security tools
+5.	production pipeline issues in Jenkins
 
-What is the Jenkinsfile, and how is it used in Jenkins pipelines
+6.	what are the build issues have you faced in your project?
 
-How to integrate sonarkube in declarative pipeline
+7.	Deployment strategies
 
-How to pass a credentials in pipeline
+8.	What are various plugins in your Jenkins Pipeline?
 
-What are the features of Jenkins?
+9.	How do you create a multi-branch Jenkins pipeline?
 
-What is Groovy in Jenkins?
+10.	how do you upgrade Jenkins?
 
-Which command is used to start Jenkins?
+11.	What is a shared library
 
-What are Declarative Pipelines in Jenkins?
+12.	What is jenkins and security tools
 
-How you can set up a Jenkins job?
+13.	What is the Jenkinsfile, and how is it used in Jenkins pipelines
 
-How to create a backup and copy files in Jenkins?
+14.	How to integrate sonarkube in declarative pipeline
 
-How can you secure Jenkins?
+15.	How to pass a credentials in pipeline
 
-What is the use of Backup Plugin in Jenkins? How to use it?
+16.	What are the features of Jenkins?
 
-Docker Interview Questions
-what is docker file?
+17.	What is Groovy in Jenkins?
 
-what is multi stage in docker?
+18.	Which command is used to start Jenkins?
 
-What is Docker volume and how do you use it?
+19.	What are Declarative Pipelines in Jenkins?
 
-How can we pass an argument to Dockerfile?
+20.	How you can set up a Jenkins job?
 
-Dockerfile runs as which user?
+21.	How to create a backup and copy files in Jenkins?
 
-How do you push the image to Docker Hub
+22.	How can you secure Jenkins?
 
-Write the docker file in java based
+23.	What is the use of Backup Plugin in Jenkins? How to use it?
 
-Docker Compose?
+## Docker Interview Questions ##
 
-How docker is integrated in Jenkins
+1.	what is docker file?
 
-Please explain docker networking
+2.	what is multi stage in docker?
 
-what is docker-compose
+3.	What is Docker volume and how do you use it?
 
-Can you use Multiple FROM in DockerFile
+4.	How can we pass an argument to Dockerfile?
 
-what is different between RUN and CMD
+5.	Dockerfile runs as which user?
 
-Write the docker file in nginx
+6.	How do you push the image to Docker Hub
 
-What is the difference between Docker images and Docker containers?
+7.	Write the docker file in java based
 
-What are the benefits and use cases of using multi-stage builds in Docker?
+8.	Docker Compose?
 
-How does Docker handle resource limitations and isolation, such as CPU, memory, and I/O?
+9.	How docker is integrated in Jenkins
 
-Docker command COPY vs ADD
+10.	Please explain docker networking
 
-entry point vs cmd in dockerfile
+11.	what is docker-compose
 
-Tell us something about Docker Compose.
+12.	Can you use Multiple FROM in DockerFile
 
-K8 Interview Questions
-1 if I want to run a specific container in pod in Kubernetes how to run it?
+13.	what is different between RUN and CMD
 
-2 Entry point vs CMD
+14.	Write the docker file in nginx
 
-3 How the pods are communicating with each other?
+15.	What is the difference between Docker images and Docker containers?
 
-4 What will you do to make you application more secure?
+16.	What are the benefits and use cases of using multi-stage builds in Docker?
 
-5 Namespace in k8?
+17.	 How does Docker handle resource limitations and isolation, such as CPU, memory, and I/O?
 
-6 what is pod security policy
+18.	Docker command COPY vs ADD
 
-7 How will you implement the security for a running container if you find an vulnerability?
+19.	 entry point vs cmd in dockerfile 
 
-8 What are the various things that can be done to increase Kubernetes security?
+20.	Tell us something about Docker Compose.
 
-9 Problem faced?
+## K8 Interview Questions ##
 
-10 How often do you release the product?
+1	if I want to run a specific container in pod in Kubernetes how to run it?
 
-11 Kubernetes issues in production
+2	Entry point vs CMD
 
-12 What is the architecture of Kubernetes?
+3	How the pods are communicating with each other?
 
-13 how the pod health check is done in Kubernetes?
+4	What will you do to make you application more secure?
 
-14 helm charts usage?
+5	Namespace in k8?
 
-15 What is the Blue/Green Deployment Pattern?
+6	what is pod security policy
 
-16 Can you explain the concept of auto-healing in Kubernetes and give examples of how it works?
+7	How will you implement the security for a running container if you find an vulnerability?
 
-17 What is the label & selector in k8s?
+8	What are the various things that can be done to increase Kubernetes security?
 
-18 What is crashloofbackoff state in a pod?
+9	Problem faced?
 
-19 What is Kubernetes Ingress?
+10	How often do you release the product?
 
-20 Kubernetes ConfigMaps and Secrets?
+11	Kubernetes issues in production
 
-21 how microservices will work?
+12	What is the architecture of Kubernetes?
 
-22 How do you debug your existed container?
+13	how the pod health check is done in Kubernetes?
 
-23 What is Deamon set
+14	helm charts usage?
 
-24 How to upgrade the DB and cluster in k8
+15	What is the Blue/Green Deployment Pattern?
 
-25 How you design your pods to have highly available
+16	Can you explain the concept of auto-healing in Kubernetes and give examples of how it works?
 
-26 What is the k8 version you are using
+17	What is the label & selector in k8s?
 
-27 What is difference between stateful sets and deployments in k8
+18	What is crashloofbackoff state in a pod?
 
-28 Have you done the backup of etcd
+19	What is Kubernetes Ingress?
 
-Monitoring Interview Questions
-1 What are the different dashboards created in Grafana?
+20	Kubernetes ConfigMaps and Secrets?
 
-2 What is the prometheus configuration file
+21	how microservices will work?
 
-3 What is Prometheus, and how does it contribute to Kubernetes monitoring?
+22	How do you debug your existed container?
 
-4 Explain the architecture of Prometheus. What are the main components, and how do they interact?
+23	What is Deamon set
 
-5 What is a Prometheus Exporter, and how does it enable the monitoring of third-party applications and services in Kubernetes?
+24	How to upgrade the DB and cluster in k8
 
-6 How do you create custom Prometheus alerts and alerting rules for Kubernetes monitoring? Provide an example alert rule and its configuration.
+25	How you design your pods to have highly available
 
-7 What is Grafana, and how does it complement Prometheus for Kubernetes monitoring?
+26	What is the k8 version you are using
 
-8 Explain the concept of Grafana data sources and how they enable integration with various data providers, including Prometheus.
+27	What is difference between stateful sets and deployments in k8
 
-AWS Interview Questions
-what is the diff b\w ALB and NLB
+28	Have you done the backup of etcd
 
-How do you determine if a subnet is private or public?
+## Monitoring Interview Questions ##
 
-What is diff b\w EBS and EFS
+1	What are the different dashboards created in Grafana?
 
-Can you attach a single EBS volume to the multiple EC2 instances at the same time?
+2	What is the prometheus configuration file
 
-what is VPC endpoint
+3	What is Prometheus, and how does it contribute to Kubernetes monitoring?
 
-What are the similarities between SSL and TLS?
+4	Explain the architecture of Prometheus. What are the main components, and how do they interact?
 
-ami and snapshot difference
+5	What is a Prometheus Exporter, and how does it enable the monitoring of third-party applications and services in Kubernetes?
 
-What is s3?
+6	How do you create custom Prometheus alerts and alerting rules for Kubernetes monitoring? Provide an example alert rule and its configuration.
 
-autoscaling in aws?
+7	What is Grafana, and how does it complement Prometheus for Kubernetes monitoring?
 
-How many many VPC can we create in one Region?
+8	Explain the concept of Grafana data sources and how they enable integration with various data providers, including Prometheus.
 
-How to access the S3 bucket privately
+## AWS Interview Questions ##
 
-What is VPC and its components?
+1.	what is the diff b\w ALB and NLB
 
-What is difference between NACL and Security groups?
+2.	How do you determine if a subnet is private or public?
 
-difference between Network and application load balancer
+3.	What is diff b\w EBS and EFS
 
-Route 53 types and what is route 53
+4.	Can you attach a single EBS volume to the multiple EC2 instances at the same time?
 
-What is a route table in Amazon VPC?
+5.	what is VPC endpoint
 
-Explain S3 lifecycle
+6.	What are the similarities between SSL and TLS?
 
-Can you increase the size of the root volume without shutting down the instance?
+7.	ami and snapshot difference
 
-You have 500GB data how you will store in S3 and what steps you will take to make sure you have time, cost and security implemented
+8.	What is s3?
 
-What is the network flow when you hit the www.google.com
+9.	autoscaling in aws?
 
-How you will get the list of Ips of EC2 from various regions that are exposed to internet
+10.	How many many VPC can we create in one Region?
 
-What is DNS caching
+11.	How to access the S3 bucket privately
 
-What is the NAT gateway and its rules
+12.	What is VPC and its components?
 
-Which AWS services have you worked on
+13.	What is difference between NACL and Security groups?
 
-What is the difference between users and roles?
+14.	difference between Network and application load balancer
 
-How do you define policies in IAM?
+15.	Route 53 types and what is route 53
 
-What is VPC? What is VPC peering?
+16.	What is a route table in Amazon VPC?
 
-What is the storage facility present in EC2 instance?
+17.	Explain S3 lifecycle
 
-How to attach NAT , internet gateways
+18.	Can you increase the size of the root volume without shutting down the instance?
 
-Diff b/w on demand instance,spot instances,reserved instance
+19.	You have 500GB data how you will store in S3 and what steps you will take to make sure you have
+time, cost and security implemented
+20.	What is the network flow when you hit the www.google.com
+
+21.	How you will get the list of Ips of EC2 from various regions that are exposed to internet
+
+22.	What is DNS caching
+
+23.	What is the NAT gateway and its rules
+
+24.	Which AWS services have you worked on
+
+25.	What is the difference between users and roles?
+
+26.	How do you define policies in IAM?
+
+27.	What is VPC? What is VPC peering?
+
+28.	What is the storage facility present in EC2 instance?
+
+29.	How to attach NAT , internet gateways
+
+30.	Diff b/w on demand instance,spot instances,reserved instance
+
+
+
+
+
+
+
+
